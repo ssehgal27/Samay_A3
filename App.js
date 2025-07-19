@@ -11,8 +11,7 @@ import * as Location from "expo-location";
 import { useEffect, useRef, useState } from "react";
 import MapView, { Marker, Callout } from "react-native-maps";
 
-// npx expo install expo-location
-// npx expo install react-native-maps
+
 
 export default function App() {
   const [poiData, setPoiData] = useState([]);
